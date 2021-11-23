@@ -9,7 +9,7 @@ $Generation = 2
 $RAM = 4096MB
 $QuantityProcessorCores = 2
 
-#Variablen (nicht ändern)
+#Variables (do not change)
 $Counter = 1
 
 #VM creation with the settings
