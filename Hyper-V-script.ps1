@@ -1,9 +1,9 @@
 #Settings
 $QuantityVM = 2
-$NameVM = "TestVM"
-$NameVHDX = "Win10vPro.v1803_sysprep_(2).vhdx"
+$NameVM = "ExampleVM"
+$NameVHDX = "example.vhdx"
 $VHDXTemplatePath = "h:\$NameVHDX"
-$VHDXTargetPath = "H:\test\"
+$VHDXTargetPath = "H:\example\"
 $Switchname = "vSwitch#1"
 $Generation = 2
 $RAM = 4096MB
