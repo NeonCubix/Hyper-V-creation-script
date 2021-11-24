@@ -27,7 +27,7 @@ DO{     #LeadingNull
     #Set processor cores
     Set-VMProcessor $NameVM$CounterNull -Count $QuantityProcessorCores
     #Copy using VHDX 
-    copy $VHDXTemplatePath $VHDXTargetPath #\$NameVM$CounterNull.vhdx
+    copy $VHDXTemplatePath $VHDXTargetPath
     #rename VHDX
     ren "$VHDXTargetPath$NameVHDX" "$NameVM$CounterNull.vhdx"
     #Attach VHDX to the VM
